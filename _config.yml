@@ -1,5 +1,5 @@
-title:            Slate+Simple Jekyll Theme
-description:      Your site description...
+title:            Mina Remeli
+description:      My personal blog
 copyright:        Your Name
 url: # add your custom site url (format: https://example.com)
 
@@ -7,7 +7,7 @@ url: # add your custom site url (format: https://example.com)
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
