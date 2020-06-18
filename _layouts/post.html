@@ -30,7 +30,7 @@
     {% include browser-upgrade.html %}
 
     <div id="main" role="main">
-        <article class="hentry">
+        <article id="article" class="hentry">
 
             <div class="featured-image">
             <img src="{{ page.featured-image}}" style="width:100%">
@@ -69,6 +69,11 @@
             <div class="post-date">
                 {{ page.date-string }}
             </div>
+
+
+            <!-- COMMENTS -->
+            <script src="/assets/js/jquery.min.js"></script>
+            {% include comments.html element="article" github_account="minaremeli/minaremeli.github.io" require_cookie_consent="false" %}
         </article>
     </div>
 </body>
