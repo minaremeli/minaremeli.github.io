@@ -4,7 +4,7 @@ title: Mina Remeli
 subtitle: About me
 ---
 
-<img src="../images/about/mina.jpg" width="30%" height="30%" style="float:right;padding:15px">
+<img src="../images/about/mina_short_hair.JPG" width="30%" height="30%" style="float:right;padding:15px">
 
 <div align="justify">
 <p>
@@ -59,6 +59,6 @@ earned me first place at the Student's Scientific Association in 2019.
 </ol>
 
 <h2> Contact me! </h2>
-Via email: <a href="mailto:mincsek@gmail.com">mincsek@gmail.com</a>
+Via email: <a href="mailto:mincsek@gmail.com">mremeli@crysys.hu</a>
 
 
