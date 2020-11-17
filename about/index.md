@@ -4,7 +4,7 @@ title: Mina Remeli
 subtitle: About me
 ---
 
-<img src="../images/about/mina_short_hair.JPG" width="30%" height="30%" style="float:right;padding:15px">
+<img src="../images/about/mina_short_hair-min.JPG" width="30%" height="30%" style="float:right;padding:15px">
 
 <div align="justify">
 <p>
