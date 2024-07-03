@@ -1,10 +1,20 @@
 <center>
     <nav class="header-nav">
         <ul class="navigation-bar">
-            <li><a href="/">HOME</a></li>
-            <li><a href="/archives/">ARCHIVE</a></li>
-            <li><a href="/tags/">TAGS</a></li>
-            <li><a href="/about/">ABOUT</a></li>
+
+            {% for item in site.data.navigation %}
+            <li>
+                <a href="{{ item.link }}" {% if page.url==item.link %}style="color: white;" {% endif %}>
+                    {{ item.name }}
+                </a>
+            </li>
+
+            {% endfor %}
+
+            <br><br>
+            <li><a href="https://scholar.google.com/citations?user=0AUIC-8AAAAJ&hl=en"><i
+                        class="ai ai-google-scholar  ai-2x"></i></a></li>
+            <li><a href="https://github.com/minaremeli"><i class='fab fa-github-alt fa-2x'></i></a></li>
         </ul>
     </nav>
 </center>

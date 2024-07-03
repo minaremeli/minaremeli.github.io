@@ -7,32 +7,13 @@ subtitle: About me
 <img src="../images/about/mina_short_hair-min.JPG" width="30%" height="30%" style="float:right;padding:15px">
 
 <div align="justify">
-<p>
-I am a Master's student in Computer Engineering and I currently work at my local university as a research assistant in <a href="https://www.crysys.hu/">CrySys lab</a>.
-My work there is centered around researching <b>machine learning privacy</b>.
-This blog will be a place where I will share some of the most interesting things I work (or used to work) on.
-</p> 
-
-<p>
-<b>Machine learning</b> was one of the first extracurricular things that I started pursuing - after my first year in university
-
-I was an intern at Prezi for 6 weeks, where I worked on <b>network anomaly detection</b>. Starting machine learning on an unsupervised
-problem was not easy, but it was one of the periods in my life where I learned the most. 
-<br>
-
-My interest in research began when I started working on <b>driver fingerprinting</b> in my third year of university.
-
-I won second place at the Student's Scientific Association in 2018 with my paper titled 
-<a href="https://tdk.bme.hu/VIK/ViewPaper/Vezeto-Azonositas-es-Szemelyes-Adatok1"><i>Driver Identification and Personal Attribute Inference from In-Vehicle Network Log</i></a>.
-
-A continuation of this work led me to my 2019 publication in the subject.
-<br>
-
-For my thesis, I decided to learn about <b>mining software repositories</b> and combining it with automatic <b>commit classification</b> at Cloudera.
-
-My paper called <a href="https://tdk.bme.hu/VIK/ViewPaper/Egy-jobb-kodvaltoztatas-cimkezo-algoritmus"><i>Enhanced-SZZ: an improved code change labeling algorithm</i></a>
-earned me first place at the Student's Scientific Association in 2019.
-</p>
+    <p>
+        I am a PhD student at the Max Planck Institute for Intelligent Systems (Tübingen, Germany), and I am proud to be
+        co-supervised by <a href="https://mrtz.org/">Moritz Hardt</a> and <a href="https://fm.ls/bob">Bob
+            Williamson</a>.
+        My research is centered around studying <b>sociotechnical systems</b>.
+        I'm interested in the impact and consequences of using algorithmic systems on social media platforms.
+    </p>
 </div>
 
 <hr>
@@ -41,24 +22,54 @@ earned me first place at the Student's Scientific Association in 2019.
 
 <ul>
     <li>Budapest University of Technology and Economics, Computer Engineering, BSc with honors (2016-2020)</li>
-    <li>Budapest University of Technology and Economics, Computer Engineering, MSc (2020-)</li>
+    <li>University of Cambridge, Advanced Computer Science, MPhil with distinction (2021-2022)</li>
+    <li>IMPRS-IS PhD Program (2022-)</li>
+
 </ul>
 
 <h2> I'm interested in... </h2>
 
 <ul>
     <li>Machine Learning</li>
-    <li>IT security and privacy</li>
+    <li>Sociotechnical systems</li>
+    <li>Security and privacy</li>
 </ul>
 
-<h2> Publications </h2>
-
-<ol>
-    <li><a href="https://arxiv.org/abs/1911.09508"><b>Automatic Driver Identification from In-Vehicle Network Logs</b></a>,
-    IEEE Intelligent Transportation Systems Conference (2019)</li>
-</ol>
-
 <h2> Contact me! </h2>
-Via email: <a href="mailto:mincsek@gmail.com">mremeli@crysys.hu</a>
+Via email: <a href="mailto:mina.remeli@tuebingen.mpg.de">mina.remeli@tuebingen.mpg.de</a>
 
+<hr>
 
+<h2>Past projects</h2>
+<ul>
+    <li>
+        driver fingerprinting (supervised by <a href="https://www.crysys.hu/member/acs">Gergely Acs</a>)
+    </li>
+    <ul>
+        <li><a href="https://tdk.bme.hu/VIK/ViewPaper/Vezeto-Azonositas-es-Szemelyes-Adatok1">second place</a> at
+            the Students' Scientific Association in 2018</li>
+        <li><a href="https://arxiv.org/abs/1911.09508">published</a> in 2019</li>
+    </ul>
+    <li>
+        commit classification (BSc thesis, supervised by <a href="http://www.hit.bme.hu/~ghorvath/">Gabor Horvath</a>)
+    </li>
+    <ul>
+        <li><a href="https://tdk.bme.hu/VIK/ViewPaper/Egy-jobb-kodvaltoztatas-cimkezo-algoritmus">first place</a> at the
+            Students' Scientific Association in 2019</li>
+    </ul>
+    <li>
+        attacks in a federated learning setting (supervised by <a href="https://www.crysys.hu/member/acs">Gergely
+            Acs</a>)
+        <ul>
+            <li><a href="https://arxiv.org/abs/2205.06506">published</a> in 2022</li>
+        </ul>
+    </li>
+    <li>
+        exploring bad minima in transfer learning (MPhil dissertation, supervised by <a
+            href="https://www.inference.vc/about/">Ferenc
+            Huszar</a>)
+        <ul>
+            <li>got awarded the prize for Highly Commended M.Phil Project</li>
+        </ul>
+    </li>
+</ul>

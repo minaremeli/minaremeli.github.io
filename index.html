@@ -1,57 +1,82 @@
 ---
-layout: post-index
+layout: post
+title: Mina Remeli
+subtitle: About me
 ---
-{% for post in paginator.posts %}
-<article>
-    
-    <!-- POST FEATURED IMAGE -->
-    <div class="featured-image">
-    <img src="{{ post.featured-image}}" style="width:100%">
+
+
+
+<div align="justify" style="display: grid; align-items: center; grid-template-columns: 2fr 1fr; column-gap: 5px;">
+    <div>
+        <p>
+            I am a PhD student at the Max Planck Institute for Intelligent Systems (Tübingen, Germany), and I am happy
+            to be
+            co-supervised by <a href="https://mrtz.org/">Moritz Hardt</a> and <a href="https://fm.ls/bob">Bob
+                Williamson</a>.
+            My research is centered around studying <b>sociotechnical systems</b>.
+            I'm interested in the impact and consequences of using algorithmic systems on social media platforms.
+        </p>
     </div>
 
-    <!-- POST TITLE -->
-    <header>
-        <h1 class="entry-title">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a>
-        </h1>
-        <h3 class="entry-subtitle">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.subtitle }}</a>
-        </h3>
-    </header>
+    <div>
+        <img src="../images/about/mina.jpg" style="float:right;padding:15px">
+    </div>
+</div>
 
-    <!-- POST CONTENT -->
-<!--     <div class="entry-content">
-        {{ post.content }}
-    </div> -->
-    
-    <!--- DIVIDING LINE -->
-    <hr>
-    
-    <!-- POST TAGS -->
-    <div class="inline-tags">
-        <span>
-        {% for tag in post.tags %}
-            <a href="/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
-        {% endfor %}
-        </span>
-    </div>
-    
-    <br>
-    
-    <!-- POST DATE -->
-    <div class="post-date">
-        <span class="entry-date date published updated">
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-                <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
-            </time>
-        </span>
-    </div>
-    
-</article>
-{% endfor %}
+<hr>
 
-<div class="pagination">
-<center>
-{% include pagination.html %}
-</center>
-    </div>
+<h2> Education </h2>
+
+<ul>
+    <li>Budapest University of Technology and Economics, Computer Engineering, BSc with honors (2016-2020)</li>
+    <li>University of Cambridge, Advanced Computer Science, MPhil with distinction (2021-2022)</li>
+    <li>IMPRS-IS PhD Program (2022-)</li>
+
+</ul>
+
+<h2> I'm interested in... </h2>
+
+<ul>
+    <li>Machine Learning</li>
+    <li>Sociotechnical systems</li>
+    <li>Security and privacy</li>
+</ul>
+
+<h2> Contact me! </h2>
+Via email: <a href="mailto:mina.remeli@tuebingen.mpg.de">mina.remeli@tuebingen.mpg.de</a>
+
+<hr>
+
+<h2>Past projects</h2>
+<ul>
+    <li>
+        driver fingerprinting (supervised by <a href="https://www.crysys.hu/member/acs">Gergely Acs</a>)
+    </li>
+    <ul>
+        <li><a href="https://tdk.bme.hu/VIK/ViewPaper/Vezeto-Azonositas-es-Szemelyes-Adatok1">second place</a> at
+            the Students' Scientific Association in 2018</li>
+        <li><a href="https://arxiv.org/abs/1911.09508">published</a> in 2019</li>
+    </ul>
+    <li>
+        commit classification (BSc thesis, supervised by <a href="http://www.hit.bme.hu/~ghorvath/">Gabor Horvath</a>)
+    </li>
+    <ul>
+        <li><a href="https://tdk.bme.hu/VIK/ViewPaper/Egy-jobb-kodvaltoztatas-cimkezo-algoritmus">first place</a> at the
+            Students' Scientific Association in 2019</li>
+    </ul>
+    <li>
+        attacks in a federated learning setting (supervised by <a href="https://www.crysys.hu/member/acs">Gergely
+            Acs</a>)
+        <ul>
+            <li><a href="https://arxiv.org/abs/2205.06506">published</a> in 2022</li>
+        </ul>
+    </li>
+    <li>
+        exploring bad minima in transfer learning (MPhil dissertation, supervised by <a
+            href="https://www.inference.vc/about/">Ferenc
+            Huszar</a>)
+        <ul>
+            <li>got awarded the prize for Highly Commended M.Phil Project</li>
+        </ul>
+    </li>
+</ul>
