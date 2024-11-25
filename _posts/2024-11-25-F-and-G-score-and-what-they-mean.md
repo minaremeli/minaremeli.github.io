@@ -39,7 +39,7 @@ Harmonic mean: $$\bar{H}(x_1, x_2) = \frac{2*x_1*x_2}{x_1+x_2}$$
 Geometric mean: $$\bar{G}(x_1, x_2) = \sqrt{x_1*x_2}$$
 
 ## The usual argument
-If you search on the internet "Why do we use harmonic mean for F-score?" you will typically find the same (somewhat unsatisfying) answer: if either precision or recall are zero, the mean will be zero too. Or conversely: both precision and recall have to be relatively high for the mean to be high. This is easy to verify just by looking at the denominator of the F-score: multiplying precision and recall have this effect. But wait - we could also just use the geometric mean[^1] because it contains the same multiplicative expression. So why does it make (more) sense to use harmonic mean instead?
+If you search on the internet "Why do we use harmonic mean for F-score?" you will typically find the same (somewhat unsatisfying) answer: if either precision or recall are zero, the mean will be zero too. Or conversely: both precision and recall have to be relatively high for the mean to be high. This is easy to verify just by looking at the numerator of the F-score: multiplying precision and recall have this effect. But wait - we could also just use the geometric mean[^1] because it contains the same multiplicative expression. So why does it make (more) sense to use harmonic mean instead?
 
 ## Harmonic mean preserves units
 Typically you will want to use the harmonic mean when you are measuring the rate of something. Precision and recall both count the rate of true positives.
@@ -63,7 +63,7 @@ For G-means, I don't have an intuitive interpretation for the product of scores 
 If you do have in intuition for these total values in the context of Machine Learning, please let me know! But for now my conclusion is that the choice of means is not that deep.
 
 ## When to use F-score or G-mean?
-Notice that the F-score does not factor in the number of true negatives ($$TN$$). I would say that it is a useful metric when predicting the positive class correctly is more important for some reason. This is typically true of predicting diseases - you care about correctly predicting people with the disease correctly (who may represent 1% of the population). 
+Notice that the F-score does not factor in the number of true negatives ($$TN$$). I would say that it is a useful metric when predicting the positive class correctly is more important for some reason. This is typically true for predicting diseases - you care about correctly predicting people with the disease correctly (who may represent 1% of the population). 
 The F-score for the negative class is not meaningful in this highly imbalanced case, since a predictor saying no one is sick would have both very high precision and recall[^2].
 If you have an imbalanced dataset, and both classes are equally important, then the G-mean is probably a better choice.
 
