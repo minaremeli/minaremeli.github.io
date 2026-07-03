@@ -5,7 +5,7 @@ a {
 	color: $link-color;
 
 	&:visited {
-		color: lighten($link-color, 20);
+		color: darken($link-color, 20);
 	}
 
 	&:hover {
@@ -26,13 +26,13 @@ a {
 /*--- BLOCKQUOTE ------------------------------------------------------------*/
 
 blockquote {
-	border-left: 4px solid $border-color;
-	font-size: 14px;
-	font-family: $alt-font;
+	border-left: 4px solid $link-color;
+	font-size: 16px;
+	font-family: $base-font;
 	margin-left: 1em;
-	margin-right: 5em;
+	margin-right: 1em;
 	padding-left: 15px;
-	line-height: 22px;
+	line-height: 26px;
 }
 
 /*--- CODE FORMAT -----------------------------------------------------------*/
@@ -174,11 +174,11 @@ svg:not(:root) {
 	font-size: 14px;
 
 	a {
-		color: #F2992E;
+		color: $base-color;
 	}
 
 	&:hover {
-		color: lighten(#F2992E, 20);
+		color: lighten($base-color, 20);
 	}
 }
 
