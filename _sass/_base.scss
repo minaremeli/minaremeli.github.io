@@ -384,3 +384,17 @@ h1 {
 		font-size: 32px;
 	}
 }
+/*--- NEWS HIGHLIGHT --------------------------------------------------------*/
+
+.news-highlight {
+	border-left: 4px solid $link-color;
+	background-color: rgba($link-color, 0.08);
+	padding: 6px 12px;
+	margin-bottom: 6px;
+	list-style: none;
+	margin-left: -1.2em;
+
+	b {
+		color: $link-color;
+	}
+}
